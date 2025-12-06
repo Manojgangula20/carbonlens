@@ -1,0 +1,68 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.so
+*.pyd
+*.pyo
+*.pkl
+*.db
+*.sqlite
+.env
+*.env
+*.toml
+
+# ---- Virtual Environments ----
+env/
+venv/
+.venv/
+ENV/
+.envrc
+pip-wheel-metadata/
+
+# ---- Cache / Logs ----
+*.log
+*.pot
+*.mo
+*.cache
+.cache/
+.cache/*
+
+# ---- Data / CSVs ----
+data/
+*.csv
+*.xlsx
+*.json
+*.parquet
+*.zip
+
+# If your OWID CSV will be directly loaded from web, ignore local copies:
+ghg-emissions-by-sector.csv
+
+# ---- Streamlit ----
+.streamlit/
+# local Streamlit configs
+# (OK — deployment platform injects its own config)
+
+# ---- Jupyter ----
+.ipynb_checkpoints/
+*.ipynb
+
+# ---- OS files ----
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---- Editors ----
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# ---- Build / Packaging ----
+build/
+dist/
+*.egg-info/
+.eggs/
+
+
+.streamlit/secrets.toml
