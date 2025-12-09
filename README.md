@@ -117,7 +117,7 @@ Requirement	|Status |
 |Chat panel for data queries	|✔️|
 |LLM for ESG + web insights	|✔️|
 |Intuitive user experience	|✔️|
-|Full deployment	|🔜 (link to be added)|
+|Full deployment	|[Link](https://carbonlens-m6xwswlcoqrmgx2eiqg5jg.streamlit.app/)|
 |Documentation	|✔️|
 
 
